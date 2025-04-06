@@ -8,7 +8,7 @@ set(CMAKE_SHARED_LIBRARY_SUFFIX ".so")
 
 # PRACTICE_DISCON 实现
 add_library(practice_discon SHARED 
-            PRACTICE_CONTROLLERBLOCKS.f90 
+            Practice_ControllerBlocks.f90 
             PRACTICE_DISCON.F90)
 set_target_properties(practice_discon PROPERTIES PREFIX "lib")
 
